@@ -14,13 +14,13 @@
 
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("img").show();
+    $("img").fadeIn();
     });
   });
 
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#initially-showing").toggle();
-    $("#initially-hidden").toggle();
+    $("#initially-showing").fadeToggle();
+    $("#initially-hidden").fadeToggle();
   });
 });
